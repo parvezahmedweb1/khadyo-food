@@ -8,7 +8,13 @@ module.exports = {
         lg: "30px",
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        home: "#FFF8EE",
+        subTitle: "#CC3333",
+        title: "#2A435D",
+      },
+    },
   },
   plugins: [],
 };

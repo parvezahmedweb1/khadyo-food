@@ -12,8 +12,8 @@ import logo from "../../images/logo2.png";
 const Navigation = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <div>
-      <div className="container mx-auto flex justify-between items-center py-4">
+    <div className="bg-home">
+      <div className="container mx-auto flex justify-between items-center py-4 ">
         <div className="logo">
           <img src={logo} alt="" />
         </div>
